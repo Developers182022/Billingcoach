@@ -1,0 +1,14 @@
+{
+  "resourceName": "billingcoachchatimages",
+  "policyUUID": "83f31edb",
+  "bucketName": "billingcoach8dc31b6a1f3a482488aec4da7fb8ddcf",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "S3Trigger1be2d787",
+  "groupAccess": {}
+}

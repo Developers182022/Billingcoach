@@ -1,0 +1,470 @@
+type UserToken @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  token: String
+}
+
+type TempIte @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  orderid: String
+  token_no: String
+  item_id: String
+  item_name: String
+  item_price_per_unit: String
+  item_unit: String
+  item_quantity: String
+  rented_duration: String
+  item_total: String
+}
+
+type StockRecord @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  stock_id: String
+  stock_record_id: String
+  stock_name: String
+  stock_quantity: String
+  stock_investment: String
+  selling_price_per_unit: String
+  stock_unit: String
+  date: String
+  time: String
+}
+
+type StockList @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  stock_id: String
+  stock_name: String
+  stock_quantity: String
+  stock_investment: String
+  constant_quantity: String
+  selling_price_per_unit: String
+  stock_status: String
+  stock_unit: String
+}
+
+type SentRequest @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  client_id: String
+  client_shop_name: String
+  client_name: String
+  client_phone_no: String
+  date: String
+  time: String
+}
+
+type RentedItems @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  product_id: String
+  rented_duration: String
+  charger_per_duration: String
+  rented_item_name: String
+  product_engagement: String
+  rentout_to_client_id: String
+}
+
+type ReceivedRequests @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  client_id: String
+  client_shop_name: String
+  client_name: String
+  client_phone_no: String
+  date: String
+  time: String
+}
+
+type Queries @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  question: String
+  answer: String
+  date: String
+  time: String
+}
+
+type ProfitMonthlyRecord @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  monthly_profit_id: String
+  monthly_profit: String
+  Expanse_amount: String
+  Earned_amount: String
+  month: String
+  year: String
+}
+
+type Profit @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_i: String
+  profit_id: String
+  profit: String
+  expanse: String
+  earned: String
+  date: String
+  month: String
+  year: String
+}
+
+type Privacypolicy @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  about_us: String
+  policy: String
+  terms_conditions: String
+  contact_no: String
+  contact_mail: String
+}
+
+type PendingPayments @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  client_id: String
+  record_id: String
+  party: String
+  party_name: String
+  Pending_amount: String
+  advance_amount: String
+}
+
+type PendingOrders @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  order_id: String
+  token_no: String
+  total: String
+  additional_amount: String
+  discount_percent: String
+  discount_amount: String
+  Advance_amount: String
+  pending_amount: String
+  date: String
+  time: String
+}
+
+type PendingOrderItems @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  order_id: String
+  token_no: String
+  item_id: String
+  item_unit: String
+  item_name: String
+  item_price: String
+  item_total: String
+  item_quantity: String
+  renting_duration: String
+  check_in_time: String
+  Check_out_time: String
+  item_status: String
+}
+
+type PaymentRecords @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  record_id: String
+  token_no: String
+  order_id: String
+  client_id: String
+  description: String
+  received_amount: String
+  sent_amount: String
+  payment_mod: String
+  date: String
+  time: String
+}
+
+type Notifications @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  title: String
+  subtitle: String
+  payload: String
+  date: String
+  time: String
+}
+
+type MenuItems @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  item_id: String
+  item_name: String
+  item_price_per_unit: String
+  item_unit: String
+}
+
+type ExpanseRecord @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  expanse_id: String
+  expanse_record_id: String
+  expanse_name: String
+  investment: String
+  description: String
+  date: String
+  time: String
+  status: String
+}
+
+type Expanse @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  expanse_id: String
+  expanse: String
+  date: String
+  status: String
+}
+
+type DeletedStockReport @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  stock_id: String
+  stock_record_id: String
+  stock_name: String
+  stock_quantity: String
+  stock_investment: String
+  selling_price: String
+  date: String
+  time: String
+  untitledfield: String
+}
+
+type DeletedOrdersItems @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  order_id: String
+  token_no: String
+  item_id: String
+  item_name: String
+  item_price: String
+  item_total: String
+  item_unit: String
+  rented_duration: String
+  item_quantity: String
+  check_in_time: String
+}
+
+type DeletedOrder @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  order_id: String
+  token_no: String
+  total: String
+  status: String
+  date: String
+  time: String
+  Advance_amount: String
+  pending_amount: String
+}
+
+type CustomerLis @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  customer_id: String
+  customer_name: String
+  customer_phone_no: String
+  pending_amount: String
+  advance_amount: String
+  time: String
+  date: String
+}
+
+type CustomerRecord @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  client_id: String
+  record_id: String
+  payment_status: String
+  payment_mode: String
+  transaction_id: String
+  sent_amount: String
+  received_amount: String
+  party_name: String
+  party: String
+  Balance: String
+  description: String
+  date: String
+  time: String
+}
+
+type CompletedOrders @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  order_id: String
+  token_no: String
+  Advance_amount: String
+  pending_amount: String
+  total: String
+  payment_mode: String
+  payment_status: String
+  transaction_id: String
+  status: String
+  date: String
+  time: String
+  additional_amount: String
+  discount_amout: String
+  discount_percent: String
+}
+
+type CompletedOrderItems @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  order_id: String
+  token_no: String
+  item_id: String
+  item_unit: String
+  item_name: String
+  item_price: String
+  item_total: String
+  item_quantity: String
+  check_in_time: String
+  Check_out_time: String
+  item_status: String
+  rented_duration: String
+}
+
+type ChatMessage @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  client_id: String
+  message_id: String
+  Chat_status: String
+  Message: String
+  file_url: String
+  file_key: String
+  file_type: String
+  payment_status: String
+  Advance_amount: String
+  pending_amount: String
+  status: String
+  delivery_mode: String
+  additional_charges: String
+  delivery_charges: String
+  payment_mode: String
+  total: String
+  transaction_id: String
+  time: String
+  date: String
+}
+
+type ChatItems @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  client_id: String
+  item_id: String
+  item_name: String
+  item_quantity: String
+  item_price: String
+  item_total: String
+  renting_duration: String
+  check_in_time: String
+  item_unit: String
+  Check_out_time: String
+  item_status: String
+  chat_id: String
+}
+
+type AppSubscription @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  plan_id: String
+  transaction_id: String
+  issue_date: String
+  expiry_date: String
+  plan_charges: String
+  status: String
+  plan: String
+  valid_till: String
+}
+
+type AppPlan @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  plan_id: String
+  plan: String
+  plan_charges: String
+  plan_offer_charges: String
+  plan_validity: String
+  plan_validfor: String
+  plan_offer: String
+}
+
+type AppOffer @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  offer_id: String
+  offer_description: String
+  offer_discount: String
+  offer_plan: String
+  offer_price: String
+  offer: String
+}
+
+type AppFeature @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  feature_id: String
+  feature_name: String
+  feature_description: String
+  feature_icon: String
+}
+
+type Appfaqs @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  topic_id: String
+  faq_id: String
+  faq_question: String
+  faq_answer: String
+}
+
+type AcceptedSuppliers @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user_id: String
+  supplier_id: String
+  supplier_name: String
+  shop_name: String
+  supplier_phone_no: String
+  supplier_address: String
+  Advance_amount: String
+  Pending_amount: String
+  username: String
+}
+
+type Rzorkey @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  key: String
+  link: String
+  contact_no: String
+  contact_mail: String
+  billing_demo: String
+  stock_demo: String
+  service_demo: String
+  expanse_demo: String
+  pending_payment_demo: String
+  chat_demo: String
+  addsupplier_demo: String
+  customer_demo: String
+  sales_Demo: String
+  subscription: String
+  supplier_details_demo: String
+}
+
+type Suppliers @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  supplier_id: String
+  shop_name: String
+  supplier_name: String
+  supplier_phone_no: String
+  shop_address: String
+  pincode: String
+  latitude_coordinate: String
+  longitude_coordinate: String
+  delivery_status: String
+  delivery_charges: String
+  username: String
+}
+
+type Su @model @auth(rules: [{allow: public}]) {
+  id: ID!
+}
+ 

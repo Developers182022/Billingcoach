@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "billingcoach",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-10-01T23:46:50.628Z"
+}

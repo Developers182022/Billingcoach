@@ -1,0 +1,170 @@
+{
+  "project_info": {
+    "project_number": "161782570665",
+    "project_id": "thebillingcoach",
+    "storage_bucket": "thebillingcoach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161782570665:android:eaf1bb63b826db86acd3b8",
+        "android_client_info": {
+          "package_name": "io.dadevelopers.billingcoachwebapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161782570665-67h6r8jioo13hou22d47rsf4pcu0qjna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.dadevelopers.billingcoachwebapp",
+            "certificate_hash": "659e66fd6ba90acaabf21c9ee5447e6948dfbab2"
+          }
+        },
+        {
+          "client_id": "161782570665-a6gr0dj30m05rkg53jmiahofsnjnossh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIH-djvrwYcSZK7tOX2GzKC70LgkkkxsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161782570665-a6gr0dj30m05rkg53jmiahofsnjnossh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "161782570665-06q6ihvn9lno7k556akc3q7iorn50mdk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.developers.webappbillingcoach.webappbillingcoach"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161782570665:android:9685ad58c9a472b4acd3b8",
+        "android_client_info": {
+          "package_name": "io.developers.webappbillingcoach.webappbillingcoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161782570665-a6gr0dj30m05rkg53jmiahofsnjnossh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIH-djvrwYcSZK7tOX2GzKC70LgkkkxsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161782570665-a6gr0dj30m05rkg53jmiahofsnjnossh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "161782570665-06q6ihvn9lno7k556akc3q7iorn50mdk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.developers.webappbillingcoach.webappbillingcoach"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161782570665:android:65e658adf9c6811dacd3b8",
+        "android_client_info": {
+          "package_name": "io.developersda.billingcoachapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161782570665-pt5gvhj090b34coeo5foc98l57j1vrla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.developersda.billingcoachapp",
+            "certificate_hash": "659e66fd6ba90acaabf21c9ee5447e6948dfbab2"
+          }
+        },
+        {
+          "client_id": "161782570665-a6gr0dj30m05rkg53jmiahofsnjnossh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIH-djvrwYcSZK7tOX2GzKC70LgkkkxsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161782570665-a6gr0dj30m05rkg53jmiahofsnjnossh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "161782570665-06q6ihvn9lno7k556akc3q7iorn50mdk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.developers.webappbillingcoach.webappbillingcoach"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161782570665:android:f15aa1a9e9e5ab9bacd3b8",
+        "android_client_info": {
+          "package_name": "io.developersda.coachbillingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161782570665-a6gr0dj30m05rkg53jmiahofsnjnossh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIH-djvrwYcSZK7tOX2GzKC70LgkkkxsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161782570665-a6gr0dj30m05rkg53jmiahofsnjnossh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "161782570665-06q6ihvn9lno7k556akc3q7iorn50mdk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.developers.webappbillingcoach.webappbillingcoach"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

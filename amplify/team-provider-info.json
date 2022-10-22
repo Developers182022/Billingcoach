@@ -1,0 +1,29 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-billingcoach-staging-205838-authRole",
+      "UnauthRoleArn": "arn:aws:iam::754337920738:role/amplify-billingcoach-staging-205838-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::754337920738:role/amplify-billingcoach-staging-205838-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-billingcoach-staging-205838-deployment",
+      "UnauthRoleName": "amplify-billingcoach-staging-205838-unauthRole",
+      "StackName": "amplify-billingcoach-staging-205838",
+      "StackId": "arn:aws:cloudformation:ap-south-1:754337920738:stack/amplify-billingcoach-staging-205838/d2ee6a00-41cb-11ed-affb-021264a5a2d4",
+      "AmplifyAppId": "d2xitimrcq6a6s"
+    },
+    "categories": {
+      "auth": {
+        "billingcoach09cf30c4": {}
+      },
+      "storage": {
+        "billingcoachchatimages": {}
+      },
+      "function": {
+        "S3Trigger1be2d787": {
+          "deploymentBucketName": "amplify-billingcoach-staging-205838-deployment",
+          "s3Key": "amplify-builds/S3Trigger1be2d787-55753646594c69424e6f-build.zip"
+        }
+      }
+    }
+  }
+}
